@@ -5,7 +5,7 @@ function Car(make, model) {
 }
 Car.prototype.getMakeModel(){
 	return `${this.make} ${this.model}`;
-}
+};
 function sportsCar(make, model, topSpeed) {
 	Car.call(this, make, model);
 	this.topSpeed=topSpeed;
